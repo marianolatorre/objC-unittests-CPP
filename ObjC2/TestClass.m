@@ -7,19 +7,8 @@
 //
 
 #import "TestClass.h"
-#import "Greeting.hpp"
-
-@interface TestClass () {
-    Greeting greeting;
-}
-
-@end
 
 @implementation TestClass
-
-- (NSString *)cppGreeting {
-    return [NSString stringWithCString:greeting.greet().c_str() encoding:[NSString defaultCStringEncoding]];
-}
 
 - (NSString *)combinations:(NSArray *)array {
     
@@ -33,6 +22,5 @@
     
     return result;
 }
-
 
 @end

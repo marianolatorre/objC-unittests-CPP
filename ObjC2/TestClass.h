@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface TestClass : NSObject
+
+- (NSString *)combinations:(NSArray *)array;
 
 @end

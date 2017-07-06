@@ -6,7 +6,7 @@
 //  Copyright © 2017 mariano latorre. All rights reserved.
 //
 
-#import "GreetingWrapper.h"
+#import "GreetingWrapper.hh"
 #import "Greeting.hpp"
 
 @interface GreetingWrapper () {

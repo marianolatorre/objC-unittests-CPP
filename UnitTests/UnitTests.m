@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "TestClass.h"
-#import "GreetingWrapper.h"
+#import "GreetingWrapper.hh"
 
 @interface UnitTests : XCTestCase
 
@@ -24,7 +24,7 @@
 
 - (void)testGreeting {
     GreetingWrapper *greeting = [[GreetingWrapper alloc] init];
-    XCTAssertTrue([[greeting cppGreeting] isEqualToString:@"hello"], @"wrong greeting");
+    XCTAssertTrue([[greeting cppGreeting] isEqualToString:@"Hello C++!"], @"wrong greeting");
 }
 
 
